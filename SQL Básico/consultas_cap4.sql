@@ -60,3 +60,4 @@ FROM funcionario f, departamento d, projeto p
 WHERE f.unome='Wong' AND
       f.cpf=d.cpf_gerente AND
       d.dnumero=p.dnum);
+
